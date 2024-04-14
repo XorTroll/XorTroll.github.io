@@ -1,0 +1,37 @@
+name: XorTroll
+dp: https://avatars.githubusercontent.com/u/33005497?v=4
+description: "
+  <p>
+    Coding/reversing things and sharing oddly specific knowledge about them
+  </p>
+  <p>
+    (mostly Nintendo related)
+  </p>
+  <br/>
+  <p>
+    Here you can find posts about my best projects, which I will periodically update as I improve them ;)
+  </p>
+  <br/>
+  <p>
+    All my work can be found on my <a href='https://github.com/XorTroll' target='_blank'>GitHub</a>
+  </P>
+"
+contact:
+#  - title: linkedin
+#    url: nope
+  - title: github
+    url: https://github.com/XorTroll
+  - title: twitter
+    url: https://twitter.com/XorTroll
+#  - title: email
+#    url: nope
+  - title: patreon
+    url: https://www.patreon.com/xortroll
+  - title: kofi
+    url: https://ko-fi.com/xortroll
+  - title: paypal
+    url: https://www.paypal.com/donate/?hosted_button_id=PHQKFTY9AHPUU
+  - title: youtube
+    url: https://www.youtube.com/channel/UCFzxtgrjKvQzuRVW6kZcbug
+  - title: discord
+    url: https://discord.gg/3KpFyaH
