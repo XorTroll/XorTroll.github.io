@@ -67,9 +67,9 @@ First of all, the game happens to create a lot of child heap allocators througho
 
 Following this, the fact that certain parts of the game happen to make just a few and easily trackable heap allocations of large, global objects - despite there being other parts of the code, like sound-related logic, which are quite the opposite - just happens to always allocate some key global objects in the exact same heap addresses:
 
-![globalco](/assets/posts/mkds-mem-cheats/globalco.png)
+![globalz](/assets/posts/mkds-mem-cheats/globalz.png)
 
-This is the object in question, along with a few more which also happen to be allocated in the same address every single time. The object contains several fields related to the current ongoing race (racer count, character/kart IDs of racers, course and cup being played...) but I still haven't bothered giving it a proper name other than the temporary one I came up when I started documenting it.
+This is the object in question, along with a few more which also happen to be allocated in the same address every single time. The object essentially contains all savedata-related content, but I still haven't bothered giving it a proper name other than the temporary one I came up when I started documenting it.
 
 One may notice that the cheat code itself hinted at the solution: it always writing at the same heap address regardless of being part of dynamically allocated memory, which means it is a predictable allocation - it is literally always allocated in the same address - hence memory allocations should be deterministic somewhere, and not in any place but in the allocation of some relevant object containing some unlocked secret stuff.
 
