@@ -51,8 +51,13 @@ main {
   border-radius: 50%;
   max-width: 100px;
 }
+#intro-wrapper {
+  margin-left: 1rem;
+  margin-bottom: 4rem;
+}
 #bio-wrapper {
   margin-left: 1rem;
+  margin-bottom: 4rem;
 }
 #text-wrapper {
   line-height: 1.2rem;
@@ -154,6 +159,40 @@ main {
   line-height: 1.3rem;
   cursor: pointer;
 }
+
+/* projects */
+
+.refs {
+  display: grid;
+  row-gap: 0.5rem;
+  margin: 2rem 0 0.1rem 0;
+}
+.refs .ref {
+  padding: 0.8rem;
+  background: var(--gray-3);
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.refs .ref .ref-title,
+.refs .ref .ref-title a {
+  color: var(--white-2);
+  font-weight: bolder;
+  font-size: 1.2rem;
+  line-height: 130%;
+}
+.refs .ref:hover {
+  transform: scale(1.05);
+}
+.refs .ref .ref-desc {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+.refs .ref-more {
+  color: var(--white-2);
+}
+
 /* media query */
 
 @media screen and (max-width: 750px) {

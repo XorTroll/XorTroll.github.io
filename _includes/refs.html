@@ -1,0 +1,19 @@
+<section id="refs">
+    <div id="refs-wrapper">
+        <h1>Best of my work</h1>
+        <section class="refs">
+            {% for i in site.data.main.refs %}
+            <article class="ref">
+                <h2 class="ref-title">
+                    <a href="{{i.url}}" target="_blank">
+                        {{i.name}}
+                    </a>
+                </h2>
+                <small class="ref-desc">{{i.desc}}</small>
+            </article>
+            {%endfor%}
+            <a class="ref-more" href="https://github.com/XorTroll" target="_blank">...and more!</a>
+        </section>
+    </div>
+</section>
+  
