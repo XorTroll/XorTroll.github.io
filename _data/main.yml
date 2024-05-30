@@ -1,11 +1,11 @@
 refs:
-  - name: Goldleaf
-    url: https://github.com/XorTroll/Goldleaf
-    desc: Multipurpose homebrew tool for Nintendo Switch
-
   - name: emuiibo
     url: https://github.com/XorTroll/emuiibo
     desc: Virtual amiibo (amiibo emulation) system for Nintendo Switch
+
+  - name: Goldleaf
+    url: https://github.com/XorTroll/Goldleaf
+    desc: Multipurpose homebrew tool for Nintendo Switch
 
   - name: aarch64-switch-rs
     url: https://github.com/aarch64-switch-rs/nx
@@ -19,18 +19,18 @@ refs:
     url: https://github.com/XorTroll/NitroEdit
     desc: C++ libraries and various tools for Nintendo DS(i) ROM formats and editing
 
-  - name: Mario Kart DS save editor
-    url: https://xortroll.github.io/mkdsdecomp/
-    desc: Part of my Mario Kart DS decompilation/documentation work
-
   - name: Haywatch
     url: https://github.com/XorTroll/Haywatch
     desc: Haylou Smart Watch 2 (LS02) reverse-engineering project
 
-  - name: arc
-    url: https://xortroll.github.io/arc/
-    desc: Atmosphère (and custom) Nintendo Switch result code database
+  - name: Mario Kart DS save editor
+    url: https://xortroll.github.io/mkdsdecomp/
+    desc: Part of my Mario Kart DS decompilation/documentation work
 
   - name: quantize
     url: https://xortroll.github.io/quantize/
     desc: Web simulator of one-dimensional quantum mechanical systems
+
+  - name: arc
+    url: https://xortroll.github.io/arc/
+    desc: Atmosphère (and custom) Nintendo Switch result code database
