@@ -2,7 +2,7 @@
 layout: post
 title: "Mario Kart DS cheat codes that rely on memory allocation"
 date: 2024-05-16 00:00:00
-categories: [ds, re]
+categories: [ds, re, mkdsdecomp]
 ---
 
 On my current voyage [reverse-engineering Mario Kart DS](https://github.com/XorTroll/mkdsdecomp){:target="_blank"} (EU version for now), a while ago I decided to check what some MKDS cheat codes did so I could match them to my reversed code, in order to verify some of my current work and to maybe even give me hints of still undocumented stuff.
