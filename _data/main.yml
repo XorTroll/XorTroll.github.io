@@ -3,6 +3,10 @@ refs:
     url: https://github.com/XorTroll/emuiibo
     desc: Virtual amiibo (amiibo emulation) system for Nintendo Switch
 
+  - name: uLaunch
+    url: https://github.com/XorTroll/uLaunch
+    desc: Custom, open-source qlaunch (Nintendo Switch HOME menu) replacement/reimplementation
+
   - name: Goldleaf
     url: https://github.com/XorTroll/Goldleaf
     desc: Multipurpose homebrew tool for Nintendo Switch
@@ -11,9 +15,13 @@ refs:
     url: https://github.com/aarch64-switch-rs/nx
     desc: Userland pure-Rust library and tools for Nintendo Switch homebrew
 
-  - name: uLaunch
-    url: https://github.com/XorTroll/uLaunch
-    desc: Custom, open-source qlaunch (Nintendo Switch HOME menu) replacement/reimplementation
+  - name: super-scribblenauts-re
+    url: https://github.com/XorTroll/super-scribblenauts-re
+    desc: Super Scribblenauts (EU) reverse-engineering work: ASM-hacking and other tools
+  
+  - name: mkds-re
+    url: https://github.com/XorTroll/mkds-re
+    desc: Mario Kart DS (EU) reverse-engineering work: ASM-hacking and other tools
 
   - name: NitroEdit
     url: https://github.com/XorTroll/NitroEdit
@@ -26,10 +34,6 @@ refs:
   - name: ls02-re
     url: https://github.com/XorTroll/ls02-re
     desc: Haylou Smart Watch 2 (LS02) reverse-engineering project
-
-  - name: Mario Kart DS save editor
-    url: https://xortroll.github.io/mkds-re/
-    desc: Part of my Mario Kart DS decompilation/documentation work
 
   - name: quantize
     url: https://xortroll.github.io/quantize/
