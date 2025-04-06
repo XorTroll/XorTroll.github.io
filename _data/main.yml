@@ -1,7 +1,7 @@
 refs:
   - name: uLaunch
     url: https://github.com/XorTroll/uLaunch
-    desc: Custom, open-source qlaunch (Nintendo Switch HOME menu) replacement/reimplementation
+    desc: Open-source, themeable, homebrew-oriented Nintendo Switch HOME Menu replacement
     video: https://www.youtube.com/embed/wvHjLHdDhcU
 
   - name: emuiibo
