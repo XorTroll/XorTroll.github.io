@@ -20,16 +20,16 @@ refs:
 
   - name: super-scribblenauts-re
     url: https://github.com/XorTroll/super-scribblenauts-re
-    desc: Super Scribblenauts (EU) reverse-engineering work - ASM-hacking and other tools
+    desc: Super Scribblenauts (EU) reverse-engineering work (ASM-hacking and other tools)
   
   - name: mkds-re
     url: https://github.com/XorTroll/mkds-re
-    desc: Mario Kart DS (EU) reverse-engineering work - ASM-hacking and other tools
+    desc: Mario Kart DS (EU) reverse-engineering work (ASM-hacking and other tools)
     video: https://www.youtube.com/embed/bEItGRcRmDU
 
   - name: NitroEdit
     url: https://github.com/XorTroll/NitroEdit
-    desc: Nintendo DS(i) ROM/format editor, but for the Nintendo DS(i) consoles themselves (PoC)
+    desc: Nintendo DS(i) ROM/format editor in the Nintendo DS(i) consoles themselves (PoC)
 
   - name: editwl
     url: https://github.com/XorTroll/editwl
