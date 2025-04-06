@@ -10,6 +10,17 @@
                     </a>
                 </h2>
                 <small class="ref-desc">{{i.desc}}</small>
+                {% if i contains "img" %}
+                <img class="ref-desc" src="{{i.img}}" alt="{{i.name}}">
+                {% elsif i contains "video" %}
+                <iframe class="ref-desc" width="560" height="315" 
+                        src="{{i.video}}" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+                {% endif %}
             </article>
             {%endfor%}
             <a class="ref-more" href="https://github.com/XorTroll" target="_blank">...and more!</a>

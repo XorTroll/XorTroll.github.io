@@ -1,15 +1,18 @@
 refs:
-  - name: emuiibo
-    url: https://github.com/XorTroll/emuiibo
-    desc: Virtual amiibo (amiibo emulation) system for Nintendo Switch
-
   - name: uLaunch
     url: https://github.com/XorTroll/uLaunch
     desc: Custom, open-source qlaunch (Nintendo Switch HOME menu) replacement/reimplementation
+    video: https://www.youtube.com/embed/wvHjLHdDhcU
+
+  - name: emuiibo
+    url: https://github.com/XorTroll/emuiibo
+    desc: Virtual amiibo (amiibo emulation) system for Nintendo Switch
+    img: assets/images/emuiibo.png
 
   - name: Goldleaf
     url: https://github.com/XorTroll/Goldleaf
     desc: Multipurpose homebrew tool for Nintendo Switch
+    img: assets/images/Goldleaf.jpg
 
   - name: aarch64-switch-rs
     url: https://github.com/aarch64-switch-rs/nx
@@ -17,11 +20,12 @@ refs:
 
   - name: super-scribblenauts-re
     url: https://github.com/XorTroll/super-scribblenauts-re
-    desc: Super Scribblenauts (EU) reverse-engineering work: ASM-hacking and other tools
+    desc: Super Scribblenauts (EU) reverse-engineering work - ASM-hacking and other tools
   
   - name: mkds-re
     url: https://github.com/XorTroll/mkds-re
-    desc: Mario Kart DS (EU) reverse-engineering work: ASM-hacking and other tools
+    desc: Mario Kart DS (EU) reverse-engineering work - ASM-hacking and other tools
+    video: https://www.youtube.com/embed/bEItGRcRmDU
 
   - name: NitroEdit
     url: https://github.com/XorTroll/NitroEdit
@@ -34,6 +38,7 @@ refs:
   - name: ls02-re
     url: https://github.com/XorTroll/ls02-re
     desc: Haylou Smart Watch 2 (LS02) reverse-engineering project
+    img: assets/images/ls02-re.jpg
 
   - name: quantize
     url: https://xortroll.github.io/quantize/
